@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flappy Sukuna</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="hud">
+      <div class="score">Score: <span id="scoreValue">0</span></div>
+    </div>
+
+    <div id="overlay" class="overlay">
+      <div class="overlay-box">
+        <h1>Flappy Gojo</h1>
+        <p>Click / Tap or press <strong>Space</strong> to start &amp; flap</p>
+        <p class="small">Avoid Sukuna obstacles</p>
+        <button id="startBtn">Start Game</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="bgMusic" src="sounds/bg-music.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>

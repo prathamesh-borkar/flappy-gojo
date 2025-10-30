@@ -1,0 +1,71 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  font-family: Inter, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.game-container { position: relative; }
+
+#gameCanvas {
+  display: block;
+  width: 960px;  
+  height: 540px;
+  background: url("images/background.jpg") center center / cover no-repeat;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+
+#hud { position: absolute; inset: 0; pointer-events: none; }
+.score {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  pointer-events: none;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+}
+
+.overlay-box {
+  background: rgba(255,255,255,0.06);
+  padding: 26px 36px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+}
+
+.overlay-box h1 { margin-bottom: 8px; font-size: 34px; }
+.overlay-box p { margin-bottom: 12px; color: #eaeaea; }
+.overlay-box .small { font-size: 13px; opacity: 0.9; }
+
+#startBtn {
+  cursor: pointer;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(90deg,#6b9cff,#5a6dff);
+  color: #fff;
+  font-size: 16px;
+}
+
+#startBtn:active { transform: translateY(1px); }
