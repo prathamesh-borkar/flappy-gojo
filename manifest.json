@@ -1,17 +1,22 @@
 {
-  "background_color": "#de4545",
-  "dir": "auto",
-  "display": "standalone",
-  "name": "Flappy Gojo",
+  "name": "Flappy Sukuna",
+  "short_name": "FlappySukuna",
+  "description": "Flappy Sukuna is an anime-themed arcade game inspired by Flappy Bird. Play as Gojo Satoru and dodge Sukuna's cursed barriers while flying through a cursed world. Featuring anime visuals, music, real-time score, and smooth mobile gameplay.",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "orientation": "portrait",
-  "scope": "/script.js",
-  "short_name": "FlappyGojo",
-  "start_url": "/index.html",
-  "theme_color": "#ffffff",
-  "id": "gojo172172",
-  "description": "flappy gojo is an anime themed arcade game inspired by flappy bird, play as gojo satoru and dodge sukuna.",
-  "lang": "en",
-  "categories": [
-    "games"
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
