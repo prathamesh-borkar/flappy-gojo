@@ -1,5 +1,6 @@
 {
   "name": "Flappy Gojo",
+  "id": "flappy-sukuna",
   "short_name": "Gojo",
   "description": "FlappyGojoEndlessGamePlayAsGojoAvoidSukunaObstaclesAndScoreHigh",
   "start_url": "./index.html",
