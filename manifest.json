@@ -1,10 +1,9 @@
 {
-  "id": "flappy-sukuna",
   "name": "Flappy Gojo",
   "short_name": "Gojo",
   "description": "FlappyGojoEndlessGamePlayAsGojoAvoidSukunaObstaclesAndScoreHigh",
-  "start_url": "/flappy-gojo/index.html",
-  "scope": "/flappy-gojo/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -37,5 +36,6 @@
       "sizes": "1953x1115",
       "type": "image/png"
     }
-  ]
+  ],
+  "id": "goojo1111223456"
 }
